@@ -65,3 +65,37 @@ body {
 .user-actions-item-search {
   margin-left: 80px;
 }
+
+/* **************** SECTION TOP **************** */
+
+.top {
+  background-image: url(../images/top-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.top-inner {
+  min-height: 500px;
+  font-family: "Cormorant", serif;
+  font-weight: 400;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-title {
+  font-size: 60px;
+  line-height: 1;
+  font-weight: 400;
+  margin-bottom: 20px;
+  max-width: 790px;
+}
+
+.top-text {
+  font-size: 24px;
+  line-height: normal;
+  margin-bottom: 48px;
+  max-width: 558px;
+}
