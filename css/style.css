@@ -99,3 +99,15 @@ body {
   margin-bottom: 48px;
   max-width: 558px;
 }
+
+/* ************** quote ************** */
+
+.blockquote-text {
+  font-family: "Cormorant", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
+  max-width: 704px;
+  margin: 150px auto;
+}
