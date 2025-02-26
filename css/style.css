@@ -83,6 +83,10 @@ ul {
   margin: 0 auto;
 }
 
+.section-indent {
+  margin-bottom: 150px;
+}
+
 body {
   font-family: 'OpenSans-Light', sans-serif;
   font-weight: 300;
@@ -124,4 +128,46 @@ body {
 
 .user-actions__item--search {
   margin-left: 80px;
+}
+
+.top {
+  background-image: url('../images/top-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.top__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 500px;
+  font-family: 'Cormorant-Regular';
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.top__title {
+  max-width: 790px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+}
+
+.top__text {
+  max-width: 560px;
+  margin-bottom: 48px;
+  line-height: normal;
+}
+
+.blockquote__text {
+  max-width: 704px;
+  margin: 0 auto;
+  font-family: 'Cormorant-LightItalic', sans-seri;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 40px;
+  text-align: center;
 }
