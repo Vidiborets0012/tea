@@ -1,3 +1,51 @@
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url('../fonts/OpenSans-Light.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-LightItalic';
+  src: url('../fonts/OpenSans-LightItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('../fonts/OpenSans-SemiBold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant-LightItalic';
+  src: url('../fonts/Cormorant-LightItalic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cormorant-Regular';
+  src: url('../fonts/Cormorant-Regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -36,6 +84,7 @@ ul {
 }
 
 body {
+  font-family: 'OpenSans-Light', sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.5;
