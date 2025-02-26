@@ -101,17 +101,25 @@ body {
 }
 
 .header__logo {
+  margin-right: 235px;
   margin-bottom: 35px;
 }
 
 .menu__list {
   display: flex;
   gap: 0 65px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .user-actions {
   display: flex;
   gap: 0 20px;
+}
+
+.user-actions--margin {
+  margin-left: auto;
 }
 
 .user-actions__item--search {
