@@ -171,3 +171,41 @@ body {
   font-size: 40px;
   text-align: center;
 }
+
+@media (max-width: 1000px) {
+  .header__inner {
+    min-height: auto;
+  }
+
+  .header__logo {
+    margin-right: 60px;
+    margin-bottom: 0;
+  }
+  .user-actions__item--search {
+    margin-left: 30px;
+  }
+
+  .section-indent {
+    margin-bottom: 120px;
+  }
+
+  .top {
+    background-position: left center;
+  }
+
+  .blockquote__text {
+    max-width: 744px;
+  }
+}
+
+@media (max-width: 860px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 360px) {
+}
