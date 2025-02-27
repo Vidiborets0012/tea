@@ -229,7 +229,16 @@ body {
   }
 
   .menu__list {
-    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 360px;
+    margin: 0 auto;
+    padding-top: 60px;
+    text-align: center;
+    background-color: #fff;
   }
 
   .menu {
