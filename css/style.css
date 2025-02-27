@@ -259,6 +259,7 @@ body {
 @media (max-width: 680px) {
   .top__title {
     font-size: 40px;
+    line-height: normal;
   }
 
   .blockquote__text {
@@ -301,4 +302,33 @@ body {
 }
 
 @media (max-width: 360px) {
+  .header__logo {
+    margin-left: 66px;
+  }
+
+  .user-actions__item--search {
+    margin-left: 0;
+  }
+
+  .section-indent {
+    margin-bottom: 80px;
+  }
+
+  .top__inner {
+    min-height: 367px;
+  }
+
+  .top__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .top__text {
+    margin-bottom: 30px;
+    font-size: 13px;
+  }
+
+  .blockquote__text {
+    max-width: 340px;
+  }
 }
