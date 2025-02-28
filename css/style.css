@@ -440,6 +440,25 @@ body {
   padding-left: 20px;
 }
 
+.prioritise__list {
+  display: flex;
+  gap: 49px;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.prioritise__title {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.prioritise__text {
+  margin-bottom: 40px;
+  font-family: 'OpenSans-SemiBold';
+  font-weight: 600;
+}
+
 @media (max-width: 1000px) {
   .header__inner {
     min-height: auto;
