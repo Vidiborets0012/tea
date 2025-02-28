@@ -253,6 +253,32 @@ body {
   font-size: 24px;
 }
 
+.reviews {
+  padding: 60px 0;
+  background-color: rgba(247, 242, 234, 0.5);
+}
+
+.reviews__list {
+  display: flex;
+  gap: 0 26px;
+}
+
+.reviews__item {
+  flex-basis: 280px;
+}
+
+.reviews__text {
+  margin-bottom: 10px;
+  font-family: 'OpenSans-LightItalic', sans-serif;
+  font-size: 16px;
+}
+
+.reviews__name {
+  font-family: 'OpenSans-SemiBold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+}
+
 @media (max-width: 1000px) {
   .header__inner {
     min-height: auto;
