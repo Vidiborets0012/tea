@@ -699,6 +699,10 @@ body {
     max-width: 460px;
     font-size: 30px;
   }
+
+  .main-blog_item:nth-child(even) {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 480px) {
@@ -747,6 +751,31 @@ body {
 
   .reviews__item {
     flex-basis: 220px;
+  }
+
+  .main-blog__item-img {
+    max-width: 230px;
+  }
+
+  .mailing-list__text {
+    flex-basis: 100%;
+    font-size: 13px;
+  }
+
+  .mailing-list__inner {
+    gap: 30px;
+  }
+
+  .mailing-list__form {
+    flex-basis: 100%;
+  }
+
+  .mailing-list__email {
+    width: 320px;
+    margin-right: 20px;
+  }
+  .checkbox__text {
+    font-size: 13px;
   }
 }
 
