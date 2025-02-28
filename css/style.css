@@ -290,18 +290,18 @@ body {
   margin-bottom: 60px;
 }
 
-.main-blog_item {
+.main-blog__item {
   display: flex;
   gap: 0 20px;
   flex-basis: 542px;
 }
 
-.main-blog_item-content {
+.main-blog__item-content {
   display: flex;
   flex-direction: column;
 }
 
-.main-blog_item-title {
+.main-blog__item-title {
   min-height: 86px;
   margin-bottom: 10px;
   font-family: 'Cormorant-Regular';
@@ -309,17 +309,17 @@ body {
   font-size: 24px;
 }
 
-.main-blog_item-author {
+.main-blog__item-author {
   font-size: 13px;
 }
 
-.main-blog_item-link {
+.main-blog__item-link {
   margin-top: auto;
   font-size: 13px;
   position: relative;
 }
 
-.main-blog_item-link::after {
+.main-blog__item-link::after {
   content: '';
   position: absolute;
   bottom: 4px;
@@ -465,7 +465,7 @@ body {
     gap: 40px 40px;
   }
 
-  .main-blog_item {
+  .main-blog__item {
     flex-basis: 460px;
   }
 }
@@ -658,7 +658,7 @@ body {
     display: block;
   }
 
-  .main-blog_item {
+  .main-blog__item {
     flex-basis: 542px;
   }
 
@@ -673,7 +673,7 @@ body {
     gap: 30px 20px;
   }
 
-  .main-blog_item:nth-child(even) {
+  .main-blog__item:nth-child(even) {
     margin-left: auto;
   }
 
@@ -700,7 +700,7 @@ body {
     font-size: 30px;
   }
 
-  .main-blog_item:nth-child(even) {
+  .main-blog__item:nth-child(even) {
     margin-left: 0;
   }
 }
@@ -835,5 +835,55 @@ body {
 
   .reviews__item:last-child {
     display: none;
+  }
+
+  .main-blog__item {
+    display: block;
+    max-width: 270px;
+  }
+
+  .main-blog__item-img {
+    max-width: 100%;
+  }
+
+  .maine-blog__list {
+    justify-content: center;
+  }
+
+  .main-blog__item-title {
+    margin-bottom: 5px;
+    min-height: auto;
+  }
+
+  .main-blog__item-author {
+    margin-bottom: 10px;
+  }
+
+  .main-blog__item:nth-last-child(2) {
+    display: none;
+  }
+
+  .main-blog__item:last-child {
+    display: none;
+  }
+
+  .mailing-list__email {
+    width: 205px;
+    margin-right: 18px;
+  }
+
+  .prioritise__title {
+    font-size: 20px;
+  }
+
+  .prioritise__text {
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .prioritise__list {
+    gap: 40px;
   }
 }
