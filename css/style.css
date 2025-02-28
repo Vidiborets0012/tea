@@ -459,6 +459,17 @@ body {
   font-weight: 600;
 }
 
+@media (max-width: 1180px) {
+  .maine-blog__list {
+    justify-content: center;
+    gap: 40px 40px;
+  }
+
+  .main-blog_item {
+    flex-basis: 460px;
+  }
+}
+
 @media (max-width: 1000px) {
   .header__inner {
     min-height: auto;
@@ -503,6 +514,38 @@ body {
 
   .reviews__item:last-child {
     display: none;
+  }
+
+  .main-blog__item-img {
+    max-width: 230px;
+  }
+
+  .maine-blog__list {
+    gap: 67px 20px;
+  }
+
+  .mailing-list {
+    padding: 60px 0;
+  }
+
+  .mailing-list__title {
+    text-align: center;
+  }
+
+  .mailing-list__inner {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .mailing-list__text {
+    flex-basis: 780px;
+    text-align: center;
+  }
+
+  .prioritise__list {
+    max-width: 757px;
+    margin: 0 auto;
+    gap: 30px 210px;
   }
 }
 
