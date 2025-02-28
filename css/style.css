@@ -85,6 +85,14 @@ blockquote {
   margin-bottom: 150px;
 }
 
+.section-title {
+  margin-bottom: 60px;
+  font-family: 'Cormorant-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+}
+
 button {
   padding: 0;
   border: none;
@@ -222,6 +230,23 @@ body {
   font-weight: 300;
   font-size: 40px;
   text-align: center;
+}
+
+.assortment__list {
+  display: flex;
+  gap: 0 40px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.assortment__img {
+  margin-bottom: 10px;
+}
+
+.assortment__name {
+  font-family: 'Cormorant-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
 }
 
 @media (max-width: 1000px) {
