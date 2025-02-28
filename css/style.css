@@ -657,6 +657,37 @@ body {
   .reviews__item:last-child {
     display: block;
   }
+
+  .main-blog_item {
+    flex-basis: 542px;
+  }
+
+  .main-blog__item-img {
+    max-width: 270px;
+  }
+
+  .maine-blog__list {
+    justify-content: flex-start;
+    max-width: 640px;
+    margin: 0 auto 60px;
+    gap: 30px 20px;
+  }
+
+  .main-blog_item:nth-child(even) {
+    margin-left: auto;
+  }
+
+  .mailing-list__text {
+    flex-basis: 640px;
+  }
+
+  .mailing-list__inner {
+    gap: 60px;
+  }
+
+  .prioritise__list {
+    gap: 30px 133px;
+  }
 }
 
 @media (max-width: 680px) {
