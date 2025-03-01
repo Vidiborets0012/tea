@@ -520,6 +520,7 @@ body {
 }
 
 .footer__nav-contacts {
+  width: 136px;
   margin-top: 20px;
 }
 
@@ -695,6 +696,14 @@ body {
   }
 }
 
+@media (max-width: 999px) {
+  .footer__inner {
+    grid-template-columns: 102px 155px 1fr 1fr;
+    gap: 0 55px;
+    margin-bottom: 55px;
+  }
+}
+
 @media (max-width: 860px) {
   .menu {
     order: -1;
@@ -778,6 +787,12 @@ body {
 
   .user-actions--margin {
     margin-left: 0;
+  }
+
+  .footer__inner {
+    grid-template-columns: 102px 155px 1fr 1fr;
+    gap: 0 55px;
+    margin-bottom: 55px;
   }
 }
 
