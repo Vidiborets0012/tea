@@ -790,10 +790,31 @@ body {
   }
 
   .footer__inner {
+    grid-template-columns: 92px 170px 270px;
+    grid-template-rows: auto 1fr;
+    gap: 0 52px;
+  }
+
+  .footer-products__list,
+  .footer-company__list {
+    grid-row: 1/4;
+  }
+
+  .footer__blockquote {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+
+  .footer__contacts {
+    grid-column: 3/5;
+    grid-row: 2/3;
+    margin-top: 50px;
+  }
+  /* .footer__inner {
     grid-template-columns: 102px 155px 1fr 1fr;
     gap: 0 55px;
     margin-bottom: 55px;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -848,6 +869,10 @@ body {
 
   .prioritise__list {
     gap: 30px 133px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 92px 170px 1fr;
   }
 }
 
