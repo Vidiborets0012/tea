@@ -610,12 +610,10 @@ body {
   }
 
   .header__logo {
-    /* margin-right: 60px; */
     margin-bottom: 0;
   }
 
   .user-actions--margin {
-    /* margin-left: auto; */
     margin-left: 50px;
   }
   .user-actions__item--search {
@@ -680,6 +678,20 @@ body {
     max-width: 757px;
     margin: 0 auto;
     gap: 30px 210px;
+  }
+
+  .footer__inner {
+    grid-template-columns: 102px 155px 270px 270px;
+    gap: 0 55px;
+    margin-bottom: 55px;
+  }
+
+  .footer__blockquote {
+    margin-top: 0;
+  }
+
+  .footer__bottom {
+    gap: 40px;
   }
 }
 
