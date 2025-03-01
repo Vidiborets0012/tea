@@ -890,6 +890,10 @@ body {
     margin-left: 0;
   }
 
+  .footer {
+    padding: 50px 0 10px;
+  }
+
   .footer__inner {
     display: flex;
     flex-wrap: wrap;
@@ -899,6 +903,7 @@ body {
   .footer-products__list,
   .footer-company__list {
     width: 50%;
+    padding-right: 10px;
   }
 
   .footer-company__title,
@@ -1118,5 +1123,15 @@ body {
 
   .prioritise__list {
     gap: 40px;
+  }
+
+  .footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer__bottom {
+    padding-right: 0;
   }
 }
