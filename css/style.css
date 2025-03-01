@@ -459,6 +459,140 @@ body {
   font-weight: 600;
 }
 
+.footer {
+  padding: 100px 0 18px;
+  background-color: #f7f2ea;
+  font-size: 16px;
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 40px;
+  margin-bottom: 100px;
+}
+
+.footer-products__title,
+.footer-company__title,
+.footer__contacts-title {
+  margin-bottom: 50px;
+  font-family: 'Cormorant-Regular', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.footer-products__item + .footer-products__item,
+.footer-company__item + .footer-company__item {
+  margin-top: 20px;
+}
+
+.footer__blockquote {
+  margin-top: 80px;
+}
+
+.footer__blockquote-text {
+  margin-bottom: 20px;
+  font-family: 'OpenSans-LightItalic';
+  font-style: italic;
+}
+
+.footer__blockquote-author {
+  font-style: normal;
+  font-size: 12px;
+}
+
+.footer__blockquote-author span {
+  display: block;
+}
+
+.footer__contacts-text {
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+.footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer__nav-logo {
+  margin-right: 40px;
+}
+
+.footer__nav-contacts {
+  margin-top: 20px;
+}
+
+.footer__nav-phone,
+.footer__nav-email {
+  display: block;
+  font-size: 13px;
+  position: relative;
+}
+
+.footer__nav-phone {
+  padding-left: 31px;
+}
+
+.footer__nav-email {
+  padding-left: 32px;
+}
+
+.footer__nav-phone + .footer__nav-email {
+  margin-top: 20px;
+}
+
+.footer__nav-phone::before,
+.footer__nav-email::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+
+.footer__nav-phone::before {
+  width: 21px;
+  height: 21px;
+  background-image: url('../images/icon-phone.svg');
+}
+
+.footer__nav-email::before {
+  top: 1px;
+  width: 22px;
+  height: 16px;
+  background-image: url('../images/icon-email.svg');
+}
+
+.footer__social {
+  margin: 40px 20px 0 auto;
+}
+
+.footer__social-list {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.footer__social-img {
+  display: block;
+}
+
+.footer__bottom {
+  display: flex;
+  align-items: center;
+  gap: 192px;
+}
+
+.partners-logo__list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.partners-logo__img {
+  display: block;
+}
+
 @media (max-width: 1180px) {
   .maine-blog__list {
     justify-content: center;
